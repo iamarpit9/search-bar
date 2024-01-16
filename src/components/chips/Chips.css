@@ -1,0 +1,25 @@
+.chip {
+  height: 20px;
+  width: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 12px;
+  padding: 5px;
+  border-radius: 50px;
+  background-color: lightgray;
+}
+
+.chip img {
+  position: relative;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.close {
+  cursor: pointer;
+}
+
+.highlighted {
+  border: 1px solid red;
+}
